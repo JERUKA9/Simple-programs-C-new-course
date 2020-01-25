@@ -6,9 +6,9 @@ int main ()
 
     int marks;
 
-switch(marks)
+switch(marks){
 
-case 95:
+    case 95:
 
     printf("Super");
 
@@ -47,7 +47,11 @@ printf("Grade  unavailble");
 
 
 
+break;
 
-    return 0;
+
 
 }
+return 0;
+}
+
