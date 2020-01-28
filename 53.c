@@ -11,6 +11,17 @@ while (i<=10)
 
  printf("value of i is %d",i);
 
+ int j =0;
+
+ while (j<=10)
+ {
+
+ printf("value of j =%d",j);
+
+ j++;
+
+ }
+
 return 0;
 }
 
