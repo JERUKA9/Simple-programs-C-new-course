@@ -13,8 +13,16 @@ void sum(int a,int b)
 int main ()
 {
 
+ int x,y;
+ printf("enter two numbers");
+ scanf("%d",&x);
+ scanf("%d",&y);
+
 
 sum(50,60);
+
+sum(x,y);
+
 
 
 return 0;
