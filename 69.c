@@ -27,6 +27,9 @@ myunion.mychar =9;
 
 printf("%i /n",myunion.mychar);
 
+printf("size of union %d",sizeof(myunion));
+
+
 
 
 return 0;
