@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+float degrees;
+
+
+
+main()
+{
+
+scanf("%f",&degrees);
+
+
+float to_fahrenheit=degrees*1.8+32;
+
+float to_celsius=degrees-32*5/9;
+
+printf("Temperature is fahrenheit %2.f \n ",to_fahrenheit);
+
+printf("Temperature is celsius %2.f \n",to_celsius);
+
+
+return 0;
+
+}
